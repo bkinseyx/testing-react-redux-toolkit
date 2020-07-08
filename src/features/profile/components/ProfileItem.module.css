@@ -1,0 +1,12 @@
+.profileItem {
+  display: flex;
+}
+
+.profileItem > * {
+  padding: 1rem;
+}
+
+.buttonWrapper {
+  display: flex;
+  align-items: flex-end;
+}

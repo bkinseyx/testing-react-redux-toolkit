@@ -1,0 +1,7 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "prettier.singleQuote": true,
+  "files.eol": "\n",
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true
+}
