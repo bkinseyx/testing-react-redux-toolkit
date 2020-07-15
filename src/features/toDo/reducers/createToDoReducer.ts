@@ -6,9 +6,10 @@ export const createToDoReducer = (
   state: ToDoState,
   action: PayloadAction<number>,
 ): void => {
+  const toDoId = ++state.maxToDoId;
   state.toDoList.push({
     ...emptyToDo,
     profileId: action.payload,
-    toDoId: state.maxToDoId++,
+    toDoId,
   });
 };

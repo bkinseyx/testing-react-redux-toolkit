@@ -1,8 +1,8 @@
 import { updateToDo } from '../../toDoSlice';
 import { store } from 'app/store';
 
-export const getDescriptionOnChange = (toDoId?: number) => (
-  description: string,
+export const getIsCompleteOnChange = (toDoId?: number) => (
+  isComplete: boolean,
 ): void => {
   if (!toDoId) {
     return;
@@ -10,7 +10,7 @@ export const getDescriptionOnChange = (toDoId?: number) => (
   store.dispatch(
     updateToDo({
       toDoId,
-      description,
+      isComplete,
     }),
   );
 };

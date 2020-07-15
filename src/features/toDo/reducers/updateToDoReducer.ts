@@ -7,7 +7,9 @@ export const updateToDoReducer = (
   state: ToDoState,
   action: PayloadAction<WithRequired<ToDo, 'toDoId'>>,
 ): void => {
-  const toDo = state.toDoList.find((p) => p.toDoId);
+  const toDo = state.toDoList.find(
+    (existingToDo) => existingToDo.toDoId === action.payload.toDoId,
+  );
   if (!toDo) {
     return;
   }

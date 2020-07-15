@@ -1,12 +1,12 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import styles from './ProfileItem.module.css';
+import classNames from 'classnames';
 
 import { Profile } from '../../profileSlice';
 import { CustomSelect } from 'app/components/CustomSelect';
-import { CustomTextInput } from 'app/components/CustomInput';
+import { CustomTextInput } from 'app/components/CustomTextInput';
 import { emptyProfile } from '../../helpers/profileTemplate';
-import classNames from 'classnames';
 import { profileTypesSelector } from '../../selectors/profileTypesSelector';
 import { getIsActiveSelector } from '../../selectors/isActiveSelector';
 import { getNameOnChange } from './getNameOnChange';
