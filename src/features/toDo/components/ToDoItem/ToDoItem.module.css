@@ -1,0 +1,12 @@
+.toDoItem {
+  display: flex;
+}
+
+.toDoItem > * {
+  padding: 1rem;
+}
+
+.buttonWrapper {
+  display: flex;
+  align-items: flex-end;
+}

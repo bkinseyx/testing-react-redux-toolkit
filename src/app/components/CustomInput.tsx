@@ -2,9 +2,10 @@ import React from 'react';
 
 interface CustomTextInputProps {
   onChange: (value: string) => void;
-  value: string;
+  value?: string;
   label: string;
   idPrefix: string;
+  autoFocus?: boolean;
 }
 
 export const CustomTextInput: React.FC<CustomTextInputProps> = ({
@@ -12,6 +13,7 @@ export const CustomTextInput: React.FC<CustomTextInputProps> = ({
   onChange,
   label,
   idPrefix,
+  autoFocus,
 }) => {
   const inputId = `${idPrefix}-input`;
 
@@ -24,6 +26,7 @@ export const CustomTextInput: React.FC<CustomTextInputProps> = ({
         className="form-control"
         value={value}
         onChange={(event): void => onChange(event.target.value)}
+        autoFocus={autoFocus}
       />
     </div>
   );

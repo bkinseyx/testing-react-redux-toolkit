@@ -10,4 +10,7 @@ export const deleteProfileReducer = (
     (profile) => profile.profileId === action.payload,
   );
   state.profileList.splice(index, 1);
+  if (state.activeProfileId === action.payload) {
+    state.activeProfileId = undefined;
+  }
 };

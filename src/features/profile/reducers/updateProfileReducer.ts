@@ -7,7 +7,9 @@ export const updateProfileReducer = (
   state: ProfileState,
   action: PayloadAction<WithRequired<Profile, 'profileId'>>,
 ): void => {
-  const profile = state.profileList.find((p) => p.profileId);
+  const profile = state.profileList.find(
+    (existingProfile) => existingProfile.profileId === action.payload.profileId,
+  );
   if (!profile) {
     return;
   }

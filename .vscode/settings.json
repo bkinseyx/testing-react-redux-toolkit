@@ -3,5 +3,7 @@
   "editor.tabSize": 2,
   "prettier.singleQuote": true,
   "files.eol": "\n",
-  "typescript.tsserver.experimental.enableProjectDiagnostics": true
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+  "codemetrics.nodeconfiguration.JsxSelfClosingElement": 0.5,
+  "codemetrics.nodeconfiguration.JsxElement": 0.5
 }
