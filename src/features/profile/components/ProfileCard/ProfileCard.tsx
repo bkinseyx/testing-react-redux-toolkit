@@ -6,11 +6,13 @@ import { profileListSelector } from '../../selectors/profileListSelector';
 import { getCreateOnClick } from './getCreateOnClick';
 import { CardFooterWrapper } from 'app/components/CardFooterWrapper/CardFooterWrapper';
 
-export const ProfileList: React.FC = () => {
+export const ProfileCard: React.FC = () => {
   const profileList = useSelector(profileListSelector);
   return (
     <div className="card">
-      <h5 className="card-header">Profiles</h5>
+      <div className="card-header">
+        <h5 className="card-title">Profiles</h5>
+      </div>
       <div className="card-body">
         <ul className="list-group">
           {profileList.map((profile) => (

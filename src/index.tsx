@@ -6,7 +6,7 @@ import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
 
 const render = async (): Promise<void> => {
-  const App = (await import('./App')).default;
+  const App = (await import('./app/components/App/App')).default;
 
   ReactDOM.render(
     <React.StrictMode>
@@ -21,7 +21,7 @@ const render = async (): Promise<void> => {
 render();
 
 if (process.env.NODE_ENV === 'development' && module.hot) {
-  module.hot.accept('./App', render);
+  module.hot.accept('./app/components/App/App', render);
 }
 
 // If you want your app to work offline and load faster, you can change

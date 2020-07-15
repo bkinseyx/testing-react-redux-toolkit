@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './ToDoItem.module.css';
 
 import { ToDo } from '../../toDoSlice';
-import { CustomTextInput } from 'app/components/CustomTextInput';
+import { CustomTextInput } from 'app/components/CustomTextInput/CustomTextInput';
 import { emptyToDo } from '../../helpers/toDoTemplate';
 import { getDescriptionOnChange } from './getDescriptionOnChange';
 import { getDeleteOnClick } from './getDeleteOnClick';

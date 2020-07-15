@@ -10,3 +10,7 @@
   margin-right: 2rem;
   margin-bottom: 2rem;
 }
+
+h5 {
+  margin-bottom: 0 !important;
+}

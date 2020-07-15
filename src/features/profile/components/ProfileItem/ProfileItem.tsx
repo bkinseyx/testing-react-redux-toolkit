@@ -4,8 +4,8 @@ import styles from './ProfileItem.module.css';
 import classNames from 'classnames';
 
 import { Profile } from '../../profileSlice';
-import { CustomSelect } from 'app/components/CustomSelect';
-import { CustomTextInput } from 'app/components/CustomTextInput';
+import { CustomSelect } from 'app/components/CustomSelect/CustomSelect';
+import { CustomTextInput } from 'app/components/CustomTextInput/CustomTextInput';
 import { emptyProfile } from '../../helpers/profileTemplate';
 import { profileTypesSelector } from '../../selectors/profileTypesSelector';
 import { getIsActiveSelector } from '../../selectors/isActiveSelector';
