@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfileItem name field 2`] = `
+<DocumentFragment>
+  <li
+    class="list-group-item profileItem"
+  >
+    <div>
+      <label
+        for="name-1-input"
+      >
+        Name
+      </label>
+      <input
+        class="form-control"
+        id="name-1-input"
+        type="text"
+        value="George"
+      />
+    </div>
+    <div>
+      <label
+        for="type-1-select"
+      >
+        Type
+      </label>
+      <select
+        class="form-control"
+        id="type-1-select"
+      >
+        <option>
+          guest
+        </option>
+        <option>
+          user
+        </option>
+        <option>
+          admin
+        </option>
+      </select>
+    </div>
+    <div
+      class="buttonWrapper"
+    >
+      <button
+        class="btn btn-danger"
+      >
+        Delete
+      </button>
+    </div>
+  </li>
+</DocumentFragment>
+`;
+
+exports[`ProfileItem type field 2`] = `
+<DocumentFragment>
+  <li
+    class="list-group-item profileItem"
+  >
+    <div>
+      <label
+        for="name-1-input"
+      >
+        Name
+      </label>
+      <input
+        class="form-control"
+        id="name-1-input"
+        type="text"
+        value="George"
+      />
+    </div>
+    <div>
+      <label
+        for="type-1-select"
+      >
+        Type
+      </label>
+      <select
+        class="form-control"
+        id="type-1-select"
+      >
+        <option>
+          guest
+        </option>
+        <option>
+          user
+        </option>
+        <option>
+          admin
+        </option>
+      </select>
+    </div>
+    <div
+      class="buttonWrapper"
+    >
+      <button
+        class="btn btn-danger"
+      >
+        Delete
+      </button>
+    </div>
+  </li>
+</DocumentFragment>
+`;
+
+exports[`renders ProfileItem 1`] = `
+<DocumentFragment>
+  <li
+    class="list-group-item profileItem"
+  >
+    <div>
+      <label
+        for="name-1-input"
+      >
+        Name
+      </label>
+      <input
+        class="form-control"
+        id="name-1-input"
+        type="text"
+        value="Ben"
+      />
+    </div>
+    <div>
+      <label
+        for="type-1-select"
+      >
+        Type
+      </label>
+      <select
+        class="form-control"
+        id="type-1-select"
+      >
+        <option>
+          guest
+        </option>
+        <option>
+          user
+        </option>
+        <option>
+          admin
+        </option>
+      </select>
+    </div>
+    <div
+      class="buttonWrapper"
+    >
+      <button
+        class="btn btn-danger"
+      >
+        Delete
+      </button>
+    </div>
+  </li>
+</DocumentFragment>
+`;

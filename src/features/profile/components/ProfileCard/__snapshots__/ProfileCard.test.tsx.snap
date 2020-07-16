@@ -134,3 +134,273 @@ exports[`renders the Profile Card 1`] = `
   </div>
 </DocumentFragment>
 `;
+
+exports[`test create button 1`] = `
+<DocumentFragment>
+  <div
+    aria-label="Profile Card"
+    class="card"
+    role="main"
+  >
+    <div
+      class="card-header"
+    >
+      <h5
+        class="card-title"
+      >
+        Profiles
+      </h5>
+    </div>
+    <div
+      class="card-body"
+    >
+      <ul
+        class="list-group"
+      >
+        <li
+          class="list-group-item profileItem"
+        >
+          <div>
+            <label
+              for="name-1-input"
+            >
+              Name
+            </label>
+            <input
+              class="form-control"
+              id="name-1-input"
+              type="text"
+              value="Ben"
+            />
+          </div>
+          <div>
+            <label
+              for="type-1-select"
+            >
+              Type
+            </label>
+            <select
+              class="form-control"
+              id="type-1-select"
+            >
+              <option>
+                guest
+              </option>
+              <option>
+                user
+              </option>
+              <option>
+                admin
+              </option>
+            </select>
+          </div>
+          <div
+            class="buttonWrapper"
+          >
+            <button
+              class="btn btn-danger"
+            >
+              Delete
+            </button>
+          </div>
+        </li>
+        <li
+          class="list-group-item profileItem"
+        >
+          <div>
+            <label
+              for="name-2-input"
+            >
+              Name
+            </label>
+            <input
+              class="form-control"
+              id="name-2-input"
+              type="text"
+              value="Sue"
+            />
+          </div>
+          <div>
+            <label
+              for="type-2-select"
+            >
+              Type
+            </label>
+            <select
+              class="form-control"
+              id="type-2-select"
+            >
+              <option>
+                guest
+              </option>
+              <option>
+                user
+              </option>
+              <option>
+                admin
+              </option>
+            </select>
+          </div>
+          <div
+            class="buttonWrapper"
+          >
+            <button
+              class="btn btn-danger"
+            >
+              Delete
+            </button>
+          </div>
+        </li>
+        <li
+          class="list-group-item profileItem active"
+        >
+          <div>
+            <label
+              for="name-3-input"
+            >
+              Name
+            </label>
+            <input
+              class="form-control"
+              id="name-3-input"
+              type="text"
+              value=""
+            />
+          </div>
+          <div>
+            <label
+              for="type-3-select"
+            >
+              Type
+            </label>
+            <select
+              class="form-control"
+              id="type-3-select"
+            >
+              <option>
+                guest
+              </option>
+              <option>
+                user
+              </option>
+              <option>
+                admin
+              </option>
+            </select>
+          </div>
+          <div
+            class="buttonWrapper"
+          >
+            <button
+              class="btn btn-danger"
+            >
+              Delete
+            </button>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="card-footer"
+    >
+      <div
+        class="wrapper"
+      >
+        <button
+          class="btn btn-primary"
+        >
+          Create New Profile
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`test delete button 1`] = `
+<DocumentFragment>
+  <div
+    aria-label="Profile Card"
+    class="card"
+    role="main"
+  >
+    <div
+      class="card-header"
+    >
+      <h5
+        class="card-title"
+      >
+        Profiles
+      </h5>
+    </div>
+    <div
+      class="card-body"
+    >
+      <ul
+        class="list-group"
+      >
+        <li
+          class="list-group-item profileItem"
+        >
+          <div>
+            <label
+              for="name-2-input"
+            >
+              Name
+            </label>
+            <input
+              class="form-control"
+              id="name-2-input"
+              type="text"
+              value="Sue"
+            />
+          </div>
+          <div>
+            <label
+              for="type-2-select"
+            >
+              Type
+            </label>
+            <select
+              class="form-control"
+              id="type-2-select"
+            >
+              <option>
+                guest
+              </option>
+              <option>
+                user
+              </option>
+              <option>
+                admin
+              </option>
+            </select>
+          </div>
+          <div
+            class="buttonWrapper"
+          >
+            <button
+              class="btn btn-danger"
+            >
+              Delete
+            </button>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="card-footer"
+    >
+      <div
+        class="wrapper"
+      >
+        <button
+          class="btn btn-primary"
+        >
+          Create New Profile
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
