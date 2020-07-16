@@ -9,7 +9,7 @@ import { CardFooterWrapper } from 'app/components/CardFooterWrapper/CardFooterWr
 export const ProfileCard: React.FC = () => {
   const profileList = useSelector(profileListSelector);
   return (
-    <div className="card">
+    <div className="card" role="main" aria-label="Profile Card">
       <div className="card-header">
         <h5 className="card-title">Profiles</h5>
       </div>

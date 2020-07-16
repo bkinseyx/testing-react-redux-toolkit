@@ -10,7 +10,7 @@ export const ToDoCard: React.FC = () => {
   const toDoList = useSelector(toDoListSelector);
   const activeProfile = useSelector(activeProfileSelector);
   return (
-    <div className="card">
+    <div className="card" role="complementary" aria-label="ToDo Card">
       <div className="card-header">
         <h5 className="card-title">
           ToDos {activeProfile?.name && `for ${activeProfile?.name}`}
