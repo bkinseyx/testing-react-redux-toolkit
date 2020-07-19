@@ -39,3 +39,314 @@ exports[`renders the ToDoCard 1`] = `
   </div>
 </DocumentFragment>
 `;
+
+exports[`test create button 1`] = `
+<DocumentFragment>
+  <div
+    aria-label="ToDo Card"
+    class="card"
+    role="complementary"
+  >
+    <div
+      class="card-header"
+    >
+      <h5
+        class="card-title"
+      >
+        ToDos for Ben
+      </h5>
+    </div>
+    <div
+      class="card-body"
+    >
+      <ul
+        class="list-group"
+      >
+        <li
+          class="list-group-item toDoItem"
+        >
+          <div>
+            <label
+              for="isComplete-1-input"
+            >
+              Complete?
+            </label>
+            <input
+              checked=""
+              class="form-control checkbox"
+              id="isComplete-1-input"
+              type="checkbox"
+            />
+          </div>
+          <div>
+            <label
+              for="description-1-input"
+            >
+              Description
+            </label>
+            <input
+              class="form-control"
+              id="description-1-input"
+              type="text"
+              value="eat tacos"
+            />
+          </div>
+          <div
+            class="buttonWrapper"
+          >
+            <button
+              class="btn btn-danger"
+            >
+              Delete
+            </button>
+          </div>
+        </li>
+        <li
+          class="list-group-item toDoItem"
+        >
+          <div>
+            <label
+              for="isComplete-2-input"
+            >
+              Complete?
+            </label>
+            <input
+              class="form-control checkbox"
+              id="isComplete-2-input"
+              type="checkbox"
+            />
+          </div>
+          <div>
+            <label
+              for="description-2-input"
+            >
+              Description
+            </label>
+            <input
+              class="form-control"
+              id="description-2-input"
+              type="text"
+              value="drink milk"
+            />
+          </div>
+          <div
+            class="buttonWrapper"
+          >
+            <button
+              class="btn btn-danger"
+            >
+              Delete
+            </button>
+          </div>
+        </li>
+        <li
+          class="list-group-item toDoItem"
+        >
+          <div>
+            <label
+              for="isComplete-3-input"
+            >
+              Complete?
+            </label>
+            <input
+              class="form-control checkbox"
+              id="isComplete-3-input"
+              type="checkbox"
+            />
+          </div>
+          <div>
+            <label
+              for="description-3-input"
+            >
+              Description
+            </label>
+            <input
+              class="form-control"
+              id="description-3-input"
+              type="text"
+              value="walk and chew gum"
+            />
+          </div>
+          <div
+            class="buttonWrapper"
+          >
+            <button
+              class="btn btn-danger"
+            >
+              Delete
+            </button>
+          </div>
+        </li>
+        <li
+          class="list-group-item toDoItem"
+        >
+          <div>
+            <label
+              for="isComplete-4-input"
+            >
+              Complete?
+            </label>
+            <input
+              class="form-control checkbox"
+              id="isComplete-4-input"
+              type="checkbox"
+            />
+          </div>
+          <div>
+            <label
+              for="description-4-input"
+            >
+              Description
+            </label>
+            <input
+              class="form-control"
+              id="description-4-input"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="buttonWrapper"
+          >
+            <button
+              class="btn btn-danger"
+            >
+              Delete
+            </button>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="card-footer"
+    >
+      <div
+        class="wrapper"
+      >
+        <button
+          class="btn btn-primary"
+        >
+          Create New ToDo
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`test delete button 1`] = `
+<DocumentFragment>
+  <div
+    aria-label="ToDo Card"
+    class="card"
+    role="complementary"
+  >
+    <div
+      class="card-header"
+    >
+      <h5
+        class="card-title"
+      >
+        ToDos for Ben
+      </h5>
+    </div>
+    <div
+      class="card-body"
+    >
+      <ul
+        class="list-group"
+      >
+        <li
+          class="list-group-item toDoItem"
+        >
+          <div>
+            <label
+              for="isComplete-2-input"
+            >
+              Complete?
+            </label>
+            <input
+              class="form-control checkbox"
+              id="isComplete-2-input"
+              type="checkbox"
+            />
+          </div>
+          <div>
+            <label
+              for="description-2-input"
+            >
+              Description
+            </label>
+            <input
+              class="form-control"
+              id="description-2-input"
+              type="text"
+              value="drink milk"
+            />
+          </div>
+          <div
+            class="buttonWrapper"
+          >
+            <button
+              class="btn btn-danger"
+            >
+              Delete
+            </button>
+          </div>
+        </li>
+        <li
+          class="list-group-item toDoItem"
+        >
+          <div>
+            <label
+              for="isComplete-3-input"
+            >
+              Complete?
+            </label>
+            <input
+              class="form-control checkbox"
+              id="isComplete-3-input"
+              type="checkbox"
+            />
+          </div>
+          <div>
+            <label
+              for="description-3-input"
+            >
+              Description
+            </label>
+            <input
+              class="form-control"
+              id="description-3-input"
+              type="text"
+              value="walk and chew gum"
+            />
+          </div>
+          <div
+            class="buttonWrapper"
+          >
+            <button
+              class="btn btn-danger"
+            >
+              Delete
+            </button>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="card-footer"
+    >
+      <div
+        class="wrapper"
+      >
+        <button
+          class="btn btn-primary"
+        >
+          Create New ToDo
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -6,12 +6,21 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "coverage": "npm test -- --coverage",
-    "lint": "eslint --ext .ts --ext .tsx ."
+    "test-ci": "react-scripts test --watchAll=false",
+    "coverage": "npm test -- --coverage --watchAll=false",
+    "lint": "eslint --ext .ts --ext .tsx .",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{ts,tsx}",
+      "!/node_modules/",
+      "!src/serviceWorker.ts",
+      "!src/index.tsx"
+    ]
   },
   "browserslist": {
     "production": [

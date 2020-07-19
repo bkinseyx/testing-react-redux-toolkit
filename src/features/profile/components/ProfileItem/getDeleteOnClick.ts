@@ -5,6 +5,7 @@ import { deleteProfile } from '../../profileSlice';
 export const getDeleteOnClick = (profileId?: number) => (
   event: React.MouseEvent,
 ): void => {
+  /* istanbul ignore next */
   if (!profileId) {
     return;
   }

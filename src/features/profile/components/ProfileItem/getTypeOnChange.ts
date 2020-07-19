@@ -4,6 +4,7 @@ import { updateProfile, ProfileType } from '../../profileSlice';
 export const getTypeOnChange = (profileId?: number) => (
   value: string,
 ): void => {
+  /* istanbul ignore next */
   if (!profileId) {
     return;
   }

@@ -60,3 +60,26 @@ test('handles profile delete click', () => {
   expect(toDoListItems).toHaveLength(0);
   expect(asFragment()).toMatchSnapshot();
 });
+
+test('handles create new todo click', () => {
+  const { rerender } = renderApp();
+  let alert = screen.queryByRole(/alert/i);
+  expect(alert).not.toBeInTheDocument();
+  const createNewToDoButton = screen.getByText(/create new todo/i);
+  fireEvent.click(createNewToDoButton);
+  rerender(
+    <Provider store={store}>
+      <App />
+    </Provider>,
+  );
+  alert = screen.getByRole(/alert/i);
+  expect(alert).toBeInTheDocument();
+  const alertCloseButton = within(alert).getByRole('button');
+  fireEvent.click(alertCloseButton);
+  rerender(
+    <Provider store={store}>
+      <App />
+    </Provider>,
+  );
+  expect(alert).not.toBeInTheDocument();
+});

@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "msjsdiag.debugger-for-chrome",
+    "clinyong.vscode-css-modules",
+    "kisstkondoros.vscode-codemetrics",
+    "mikestead.dotenv",
+    "dbaeumer.vscode-eslint",
+    "orta.vscode-jest",
+    "esbenp.prettier-vscode",
+    "visualstudioexptteam.vscodeintellicode"
+  ]
+}

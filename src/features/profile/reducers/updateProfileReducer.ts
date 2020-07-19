@@ -10,6 +10,7 @@ export const updateProfileReducer = (
   const profile = state.profileList.find(
     (existingProfile) => existingProfile.profileId === action.payload.profileId,
   );
+  /* istanbul ignore next */
   if (!profile) {
     return;
   }

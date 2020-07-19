@@ -6,6 +6,7 @@ export const store = configureStore({
   reducer: rootReducer,
 });
 
+/* istanbul ignore next */
 if (process.env.NODE_ENV === 'development' && module.hot) {
   module.hot.accept('./rootReducer', async () => {
     const newRootReducer = (await import('./rootReducer')).default;

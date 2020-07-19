@@ -10,6 +10,7 @@ export const updateToDoReducer = (
   const toDo = state.toDoList.find(
     (existingToDo) => existingToDo.toDoId === action.payload.toDoId,
   );
+  /* istanbul ignore next */
   if (!toDo) {
     return;
   }

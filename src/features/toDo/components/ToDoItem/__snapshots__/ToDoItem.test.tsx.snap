@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToDoItem description field 2`] = `
+<DocumentFragment>
+  <li
+    class="list-group-item toDoItem"
+  >
+    <div>
+      <label
+        for="isComplete-1-input"
+      >
+        Complete?
+      </label>
+      <input
+        checked=""
+        class="form-control checkbox"
+        id="isComplete-1-input"
+        type="checkbox"
+      />
+    </div>
+    <div>
+      <label
+        for="description-1-input"
+      >
+        Description
+      </label>
+      <input
+        class="form-control"
+        id="description-1-input"
+        type="text"
+        value="live, laugh, love"
+      />
+    </div>
+    <div
+      class="buttonWrapper"
+    >
+      <button
+        class="btn btn-danger"
+      >
+        Delete
+      </button>
+    </div>
+  </li>
+</DocumentFragment>
+`;
+
+exports[`ToDoItem type field 2`] = `
+<DocumentFragment>
+  <li
+    class="list-group-item toDoItem"
+  >
+    <div>
+      <label
+        for="isComplete-1-input"
+      >
+        Complete?
+      </label>
+      <input
+        checked=""
+        class="form-control checkbox"
+        id="isComplete-1-input"
+        type="checkbox"
+      />
+    </div>
+    <div>
+      <label
+        for="description-1-input"
+      >
+        Description
+      </label>
+      <input
+        class="form-control"
+        id="description-1-input"
+        type="text"
+        value="live, laugh, love"
+      />
+    </div>
+    <div
+      class="buttonWrapper"
+    >
+      <button
+        class="btn btn-danger"
+      >
+        Delete
+      </button>
+    </div>
+  </li>
+</DocumentFragment>
+`;
+
+exports[`renders ToDoItem 1`] = `
+<DocumentFragment>
+  <li
+    class="list-group-item toDoItem"
+  >
+    <div>
+      <label
+        for="isComplete-1-input"
+      >
+        Complete?
+      </label>
+      <input
+        checked=""
+        class="form-control checkbox"
+        id="isComplete-1-input"
+        type="checkbox"
+      />
+    </div>
+    <div>
+      <label
+        for="description-1-input"
+      >
+        Description
+      </label>
+      <input
+        class="form-control"
+        id="description-1-input"
+        type="text"
+        value="eat tacos"
+      />
+    </div>
+    <div
+      class="buttonWrapper"
+    >
+      <button
+        class="btn btn-danger"
+      >
+        Delete
+      </button>
+    </div>
+  </li>
+</DocumentFragment>
+`;
