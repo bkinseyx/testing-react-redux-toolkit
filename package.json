@@ -7,6 +7,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test-ci": "react-scripts test --watchAll=false",
+    "test-debug": "react-scripts --inspect-brk test --runInBand --no-cache",
     "coverage": "npm test -- --coverage --watchAll=false",
     "lint": "eslint --ext .ts --ext .tsx .",
     "eject": "react-scripts eject"

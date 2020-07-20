@@ -24,6 +24,10 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 Launches the test runner in Continuous Integration mode. (Does not watch for changes)<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run test-debug`
+
+This will start running your Jest tests, but pause before executing to allow a debugger to attach to the process. See [](https://create-react-app.dev/docs/debugging-tests/)
+
 ### `npm run build`
 
 Builds the app for production to the `build` folder.<br />
