@@ -1,9 +1,9 @@
 import { PayloadAction } from '@reduxjs/toolkit';
 import { ToDoState } from '../toDoSlice';
 
-export const showErrorMessageReducer = (
+export const setErrorMessageReducer = (
   state: ToDoState,
-  action: PayloadAction<string>,
+  action: PayloadAction<string | undefined>,
 ): void => {
   state.errorMessage = action.payload;
 };

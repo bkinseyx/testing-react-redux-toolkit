@@ -4,8 +4,7 @@ import { createToDoReducer } from './reducers/createToDoReducer';
 import { deleteToDoReducer } from './reducers/deleteToDoReducer';
 import { updateToDoReducer } from './reducers/updateToDoReducer';
 import { resetReducer } from './reducers/resetReducer';
-import { showErrorMessageReducer } from './reducers/showErrorMessageReducer';
-import { hideErrorMessageReducer } from './reducers/hideErrorMessageReducer';
+import { setErrorMessageReducer } from './reducers/setErrorMessageReducer';
 
 export interface ToDo {
   toDoId: number;
@@ -41,8 +40,7 @@ export const toDoSlice = createSlice({
     createToDo: createToDoReducer,
     deleteToDo: deleteToDoReducer,
     updateToDo: updateToDoReducer,
-    showErrorMessage: showErrorMessageReducer,
-    hideErrorMessage: hideErrorMessageReducer,
+    setErrorMessage: setErrorMessageReducer,
     reset: resetReducer,
   },
 });
@@ -51,8 +49,7 @@ export const {
   createToDo,
   deleteToDo,
   updateToDo,
-  showErrorMessage,
-  hideErrorMessage,
+  setErrorMessage,
   reset,
 } = toDoSlice.actions;
 

@@ -1,6 +1,6 @@
 import { store } from 'app/store';
-import { hideErrorMessage } from '../../toDoSlice';
+import { setErrorMessage } from '../../toDoSlice';
 
 export const getErrorCloseOnClick = () => (): void => {
-  store.dispatch(hideErrorMessage());
+  store.dispatch(setErrorMessage());
 };

@@ -44,7 +44,7 @@ exports[`ToDoItem description field 2`] = `
 </DocumentFragment>
 `;
 
-exports[`ToDoItem type field 2`] = `
+exports[`ToDoItem isComplete field 2`] = `
 <DocumentFragment>
   <li
     class="list-group-item toDoItem"
@@ -72,7 +72,7 @@ exports[`ToDoItem type field 2`] = `
         class="form-control"
         id="description-1-input"
         type="text"
-        value="live, laugh, love"
+        value="eat tacos"
       />
     </div>
     <div
